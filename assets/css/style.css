@@ -4,6 +4,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* Page - Index.html */
 /* Navbar */
 
 .navbar {
@@ -23,10 +24,72 @@ body {
     color: #9094A2 !important;
     font-weight: 200;
 }
+
+.btn-masuk{
+    padding: 12px 50px;
+    background-color: #83D987;
+}
 /* End Navbar */
 
+/* Header */
+.header {
+    padding: 120px 0;
+}
 
-/* Classroom.html */
+.header-desc h1{
+    color: #0F1D37;
+    font-weight: 700;
+}
+
+.btn-mulai {
+    padding: 20px 40px;
+    background-color: #83D987;
+    border-radius: 12px;
+    box-shadow: -1px 23px 32px -17px rgba(31, 31, 31, 0.75);
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+}
+
+/* Benefit */
+
+.benefit{
+    margin-top: -50px;
+}
+.benefit-text h2{
+    color: #0F1D37;
+    font-weight: 700;
+}
+
+/* End Benefit */
+
+/* Event Webinar */
+
+.event-text h2{
+    color: #0F1D37;
+    font-weight: 700;
+}
+
+.btn-beliTiket{
+    background-color: #65D9E4;
+    padding: 7px;
+    border-radius: 6px; 
+    color: #EBFAFC;
+}
+
+/* End Event Webinar */
+
+.section-footer{
+    background-color: #C6F3C8;
+}
+
+
+
+/* End Page - Index.html */
+
+/*  */
+
+/* Page - Classroom.html */
 .bg{
     background-color: #F1F1F1;
     height: 580px;
