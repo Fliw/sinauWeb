@@ -82,12 +82,39 @@ body {
 .section-footer{
     background-color: #C6F3C8;
 }
-
-
-
 /* End Page - Index.html */
 
-/*  */
+/* Page - Login.html  */
+.btn-login{
+    background-color: #83D987;
+}
+
+.login-container {
+    background: -webkit-gradient(linear, left top, right top, color-stop(60%, #fff), color-stop(40%, #E4E6EB));
+    background: linear-gradient(90deg, #fff 60%, #E4E6EB 40%);
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .page-login {
+    height: 100vh;
+  }
+  
+  .page-login .btn-login {
+    background-color: #83D987;
+    color: #fff;
+    -webkit-box-shadow: 0 4px 0 #5e5e5e;
+            box-shadow: 0 4px 0 #5e5e5e;
+    cursor: pointer;
+  }
+  
+  .page-login .btn-login:active {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    top: 4px;
+    border: none;
+    position: relative;
+  }
 
 /* Page - Classroom.html */
 .bg{
