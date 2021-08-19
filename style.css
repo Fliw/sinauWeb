@@ -9,7 +9,7 @@ body {
     margin-right: 16px;
 }
 
-.nav-item.active a{
+.nav-item.active a {
     color: #83D987 !important;
     font-weight: 600 !important;
 }
@@ -30,7 +30,7 @@ body {
     /* .navbar-nav {
         text-align: right;
     } */
-/* 
+    /* 
     .nav-link span {
         text-align: right;
     } */
