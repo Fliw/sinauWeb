@@ -12,7 +12,7 @@ body {
     padding: 20px;
 }
 
-.nav-link{
+.nav-link {
     font-size: 18px;
 }
 
@@ -30,22 +30,23 @@ body {
     font-weight: 200;
 }
 
-.btn-masuk{
+.btn-masuk {
     padding: 12px 50px;
     background-color: #83D987;
 }
 
-.navbar-fixed-top.scrolled{
+.navbar-fixed-top.scrolled {
     color: black !important;
     background-color: rgb(255, 255, 255) !important;
-    transition: background-color  200ms linear;
-    box-shadow: 2px 3px 8px -1px rgba(0,0,0,0.59);
+    transition: background-color 200ms linear;
+    box-shadow: 2px 3px 8px -1px rgba(0, 0, 0, 0.59);
 }
 
 .nav-link.scrolled {
     color: rgb(0, 0, 0) !important;
     font-size: 18px;
 }
+
 /* End Navbar */
 
 /* Header */
@@ -53,7 +54,7 @@ body {
     padding: 120px 0;
 }
 
-.header-desc h1{
+.header-desc h1 {
     color: #0F1D37;
     font-weight: 700;
 }
@@ -70,41 +71,62 @@ body {
 
 /* Benefit */
 
-.benefit{
+.benefit {
     margin-top: -50px;
 }
-.benefit-text h2{
+
+.benefit-text h2 {
     color: #0F1D37;
     font-weight: 700;
 }
+
 /* End Benefit */
 
 /* Event Webinar */
-.event-text h2{
+.event-text h2 {
     color: #0F1D37;
     font-weight: 700;
 }
 
-.btn-beliTiket{
+.btn-beliTiket {
     background-color: #65D9E4;
     padding: 7px;
-    border-radius: 6px; 
+    border-radius: 6px;
     color: #EBFAFC;
 }
+
 /* End Event Webinar */
 
 /* Footer */
-.section-footer{
+.section-footer {
     background-color: #C6F3C8;
 }
 
 .section-footer ul li a {
     color: #fff;
 }
+
+.btn-home-page {
+    border-radius: 4px;
+    background-color: #83D987;
+    color: #fff;
+}
+  .section-success h1 {
+    font-weight: 600;
+    font-size: 26px;
+    color: #071c4d;
+  }
+  
+  .section-success p {
+    font-weight: 300;
+    font-size: 18px;
+    color: #b1b1b1;
+  }
+
 /* End Page - Index.html */
 
 /* Page - Login.html  */
-.btn-login{
+.btn-login {
     background-color: #83D987;
 }
 
@@ -113,30 +135,30 @@ body {
     background: linear-gradient(90deg, #fff 60%, #E4E6EB 40%);
     width: 100vw;
     height: 100vh;
-  }
+}
 
-  .page-login {
+.page-login {
     height: 100vh;
-  }
-  
-  .page-login .btn-login {
+}
+
+.page-login .btn-login {
     background-color: #83D987;
     color: #fff;
     -webkit-box-shadow: 0 4px 0 #5e5e5e;
-            box-shadow: 0 4px 0 #5e5e5e;
+    box-shadow: 0 4px 0 #5e5e5e;
     cursor: pointer;
-  }
-  
-  .page-login .btn-login:active {
+}
+
+.page-login .btn-login:active {
     -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
     top: 4px;
     border: none;
     position: relative;
-  }
+}
 
 /* Page - Classroom.html */
-.bg{
+.bg {
     background-color: #f1f1f1;
     height: 580px;
     padding: 180px 0 0px;
@@ -147,14 +169,15 @@ body {
 
 }
 
-.box{
+.box {
     width: 100%;
     height: 100%;
     background-color: white;
-    margin:0 50px;
+    margin: 0 50px;
 }
-.box-header{
-    background-color:#83D987;
+
+.box-header {
+    background-color: #83D987;
     width: 100%;
     height: 50px;
     text-align: center;
@@ -163,24 +186,27 @@ body {
     justify-content: center;
     align-items: center;
 }
-.box-body{
+
+.box-body {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.card-class{
+.card-class {
     margin-top: -270px;
 }
+
 /* End Classroom */
 
 
 /* Responsive Area */
 /* Mobile UI */
 @media screen and (max-width: 513px) {
+
     /* Page : Index.html */
-    .nav-item a{
+    .nav-item a {
         text-align: center;
         margin: 18px 0;
     }
@@ -188,6 +214,7 @@ body {
     .btn-masuk {
         display: block;
     }
+
     .header-img img {
         display: none;
     }
@@ -204,7 +231,7 @@ body {
         border: #b1b1b1 solid 1px;
     }
 
-    .card-class{
+    .card-class {
         margin-top: -70px;
     }
 }
