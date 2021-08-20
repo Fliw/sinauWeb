@@ -9,6 +9,11 @@ body {
 
 .navbar {
     margin-bottom: 150px;
+    padding: 20px;
+}
+
+.nav-link{
+    font-size: 18px;
 }
 
 .nav-item {
@@ -28,6 +33,18 @@ body {
 .btn-masuk{
     padding: 12px 50px;
     background-color: #83D987;
+}
+
+.navbar-fixed-top.scrolled{
+    color: black !important;
+    background-color: rgb(255, 255, 255) !important;
+    transition: background-color  200ms linear;
+    box-shadow: 2px 3px 8px -1px rgba(0,0,0,0.59);
+}
+
+.nav-link.scrolled {
+    color: rgb(0, 0, 0) !important;
+    font-size: 18px;
 }
 /* End Navbar */
 
@@ -60,11 +77,9 @@ body {
     color: #0F1D37;
     font-weight: 700;
 }
-
 /* End Benefit */
 
 /* Event Webinar */
-
 .event-text h2{
     color: #0F1D37;
     font-weight: 700;
@@ -76,11 +91,15 @@ body {
     border-radius: 6px; 
     color: #EBFAFC;
 }
-
 /* End Event Webinar */
 
+/* Footer */
 .section-footer{
     background-color: #C6F3C8;
+}
+
+.section-footer ul li a {
+    color: #fff;
 }
 /* End Page - Index.html */
 
@@ -118,9 +137,14 @@ body {
 
 /* Page - Classroom.html */
 .bg{
-    background-color: #F1F1F1;
+    background-color: #f1f1f1;
     height: 580px;
-    padding: 180px 0 180px;
+    padding: 180px 0 0px;
+}
+
+.info-kelas {
+    background-color: #F1F1F1;
+
 }
 
 .box{
@@ -145,16 +169,42 @@ body {
     align-items: center;
     text-align: center;
 }
+
+.card-class{
+    margin-top: -270px;
+}
 /* End Classroom */
+
 
 /* Responsive Area */
 /* Mobile UI */
 @media screen and (max-width: 513px) {
-    /* .navbar-nav {
-        text-align: right;
-    } */
-    /* 
-    .nav-link span {
-        text-align: right;
-    } */
+    /* Page : Index.html */
+    .nav-item a{
+        text-align: center;
+        margin: 18px 0;
+    }
+
+    .btn-masuk {
+        display: block;
+    }
+    .header-img img {
+        display: none;
+    }
+
+    .benefit-img img {
+        display: none;
+    }
+
+    /* Page : Classroom.html */
+    .box {
+        width: 100%;
+        height: 100%;
+        margin: 20px auto;
+        border: #b1b1b1 solid 1px;
+    }
+
+    .card-class{
+        margin-top: -70px;
+    }
 }
