@@ -111,17 +111,18 @@ body {
     background-color: #83D987;
     color: #fff;
 }
-  .section-success h1 {
+
+.section-success h1 {
     font-weight: 600;
     font-size: 26px;
     color: #071c4d;
-  }
-  
-  .section-success p {
+}
+
+.section-success p {
     font-weight: 300;
     font-size: 18px;
     color: #b1b1b1;
-  }
+}
 
 /* End Page - Index.html */
 
@@ -201,6 +202,64 @@ body {
 /* End Classroom */
 
 
+/* Page : ambil_kelas.html */
+.section-details-header {
+    min-height: 410px;
+    background: #f1f1f1;
+    padding: 180px 0 160px;
+}
+
+.section-details-content {
+    margin-top: -110px;
+    min-height: 100vh;
+}
+
+.section-details-content .gallery .video-container {
+    display: block;
+
+    margin: auto;
+}
+
+.section-details-content .gallery .xzoom-container .xzoom {
+    width: 100%;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 10px;
+}
+
+.section-details-content .card-details {
+    padding: 30px;
+    border-radius: 11px;
+}
+
+.section-details-content .card-details h1 {
+    font-size: 26px;
+}
+
+.section-details-content .join-container {
+    margin-top: -25px;
+}
+
+.section-details-content .card-right {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.section-details-content .btn-join-now {
+    background-color: #83D987;
+    color: #fff;
+    border-radius: 0;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.section-details-content .btn-join-now:hover {
+    background-color: #74dd79;
+    color: #fff;
+}
+/* End Page : ambil_kelas.html */
+
+
 /* Responsive Area */
 /* Mobile UI */
 @media screen and (max-width: 513px) {
@@ -233,5 +292,21 @@ body {
 
     .card-class {
         margin-top: -70px;
+    }
+
+    .success-img {
+        width: 50%;
+    }
+
+    .img-pengajar {
+        width: 60px;
+    }
+
+    .text-pengajar h4 {
+        font-size: 16px;
+    }
+
+    .text-pengajar p {
+        font-size: 14px;
     }
 }
